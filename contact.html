@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
-<body biswa
->
-    
+<body>
+    <h2>Application Form</h2>
+    <h4> Fields Maked as * are Required </h4>
+
+    <form action="mailto:dashbablu32@gmail.com">
+
+       <label for="name">Name:* </label>
+       <input type="text" required> <br><br>
+        <fieldset>
+            <legend>Gender *</legend>
+            <p>
+                Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required>
+            </p>
+        </fieldset> <br>
+        <label for="branch">Branch:* </label>
+        <input type="text" required><br><br>
+        <label for="work">Worktype:* </label>
+        <select name="work" id="" required>
+            <option value="default">Select from thr options</option>
+            <option value="front">Frontend</option>
+            <option value="back">Backend</option>
+        </select>
+        <br><br>
+        <fieldset>
+            <legend> Which Field Do You Want To Work In?*</legend>
+            <input type="radio">
+            <label for="field">App Development</label>
+            <input type="radio">
+            <label for="field">Web Development</label>
+        </fieldset>
+        <p>Write About Your Previous Experiences : </p>
+        <textarea name="" id="" cols="100" rows="10"></textarea>
+        <br><br>
+        <label for="phn">Phone Number:* </label>
+        <input type="number"><br><br>
+        <label for="email">Email Address:* </label>
+        <input type="email"><br><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
